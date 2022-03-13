@@ -25,6 +25,9 @@ int main(){
 		printf("\nEscolha a opção: ");
 		scanf("%d", &aux);
 		switch(aux){
+			case 0:
+				printf("Saindo...");
+				break;
 			case 1:
 				resultado = num1 + num2;
 				printf("\nO resultado: %d", resultado);
