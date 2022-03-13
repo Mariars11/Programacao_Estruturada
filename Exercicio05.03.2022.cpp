@@ -3,10 +3,10 @@
 #include <math.h>
 
 int main(){
-	//permite o uso de acentuação no printf
+	//permite o uso de acentuaÃ§Ã£o no printf
 	setlocale(LC_ALL, "Portuguese");
 	
-	//Declaração de variáveis
+	//DeclaraÃ§Ã£o de variÃ¡veis
 	int num1, num2, resultado, aux;
 	float raiz;
 	
@@ -14,15 +14,15 @@ int main(){
 		//Informar os numeros a serem calculados
 		//entrada de dados
 		printf("\n");
-		printf("\n=== Informe os números e as operações desejadas, conforme solicitado! === \n");
-		printf("\nDigite o primeiro número: ");
+		printf("\n=== Informe os nÃºmeros e as operaÃ§Ãµes desejadas, conforme solicitado! === \n");
+		printf("\nDigite o primeiro nÃºmero: ");
 		scanf("%d", &num1);
-		printf("Digite o segundo número: ");
+		printf("Digite o segundo nÃºmero: ");
 		scanf("%d", &num2);
 		
-		//switch case e as operações
-		printf("|1| - soma dos números\n|2| - produto do primeiro número pelo quadrado do segundo\n|3| - o quadrado do primeiro número\n|4| - A raiz quadrada da soma dos quadrados ");
-		printf("\nEscolha a opção: ");
+		//switch case e as operaÃ§Ãµes
+		printf("|0| - Sair\n|1| - soma dos nÃºmeros\n|2| - produto do primeiro nÃºmero pelo quadrado do segundo\n|3| - o quadrado do primeiro nÃºmero\n|4| - A raiz quadrada da soma dos quadrados ");
+		printf("\nEscolha a opÃ§Ã£o: ");
 		scanf("%d", &aux);
 		switch(aux){
 			case 1:
@@ -43,7 +43,7 @@ int main(){
 				printf("\nO resultado: %.2f", raiz);
 				break;
 			default:
-				printf("Essa opção não está disponível");
+				printf("Essa opÃ§Ã£o nÃ£o estÃ¡ disponÃ­vel");
 		}
 	}while(aux != 0);	
 }
