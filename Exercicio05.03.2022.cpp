@@ -21,7 +21,7 @@ int main(){
 		scanf("%d", &num2);
 		
 		//switch case e as operações
-		printf("|0| - Sair\n|1| - soma dos números\n|2| - produto do primeiro número pelo quadrado do segundo\n|3| - o quadrado do primeiro número\n|4| - A raiz quadrada da soma dos quadrados ");
+		printf("|0| - Sair\n|1| - Soma dos números\n|2| - Produto do primeiro número pelo quadrado do segundo\n|3| - O quadrado do primeiro número\n|4| - A raiz quadrada da soma dos quadrados ");
 		printf("\nEscolha a opção: ");
 		scanf("%d", &aux);
 		switch(aux){
